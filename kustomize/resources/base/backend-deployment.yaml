@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: quay.io/drsylent/cubix/block3/optional-backend:springboot3
+        image: quay.io/drsylent/cubix/block4/optional-backend:springboot3
         ports:
         - containerPort: 8080
           name: web

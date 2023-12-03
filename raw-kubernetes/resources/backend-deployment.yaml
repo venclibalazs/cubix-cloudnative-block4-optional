@@ -2,14 +2,14 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
-  namespace: op3-kube-backend
+  namespace: op4-kube-backend
 spec:
   replicas: 1
   template:
     spec:
       containers:
       - name: backend
-        image: quay.io/drsylent/cubix/block3/optional-backend:springboot3
+        image: quay.io/drsylent/cubix/block4/optional-backend:springboot3
         ports:
         - containerPort: 8080
           name: web

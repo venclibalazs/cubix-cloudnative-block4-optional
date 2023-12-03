@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: quay.io/drsylent/cubix/block3/optional-frontend:springboot3
+        image: quay.io/drsylent/cubix/block4/optional-frontend:springboot3
         env:
         - name: BACKEND_URL
           value: http://backend:8080

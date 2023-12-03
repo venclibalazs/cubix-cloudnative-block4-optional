@@ -1,2 +1,2 @@
-kubectl delete namespace op3-kube-frontend
-kubectl delete namespace op3-kube-backend
+kubectl delete namespace op4-kube-frontend
+kubectl delete namespace op4-kube-backend

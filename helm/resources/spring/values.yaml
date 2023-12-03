@@ -9,7 +9,7 @@ env:
 replicaCount: 1
 
 image:
-  repository: quay.io/drsylent/cubix/block3/optional-frontend
+  repository: quay.io/drsylent/cubix/block4/optional-frontend
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "springboot3"
