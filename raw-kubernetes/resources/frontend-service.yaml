@@ -4,7 +4,9 @@ metadata:
   name: frontend
   namespace: op4-kube-frontend
 spec:
+  selector:
+    optional4: frontend
   ports:
     - name: web
-      port: 8080
+      port: 80
       targetPort: web

@@ -5,7 +5,13 @@ metadata:
   namespace: op4-kube-backend
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      optional4: backend
   template:
+    metadata:
+      labels:
+        optional4: backend
     spec:
       containers:
       - name: backend
