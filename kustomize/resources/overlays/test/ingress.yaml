@@ -10,7 +10,7 @@ spec:
     http:
       paths:
       - path: /frontend
-        pathType: Exact
+        pathType: Prefix
         backend:
           service:
             name: frontend

@@ -1,3 +1,4 @@
 namespace: op4-kustomize-prod
 resources:
+- ../../base
 - ingress.yaml
