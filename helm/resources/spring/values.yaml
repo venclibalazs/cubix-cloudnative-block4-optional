@@ -43,6 +43,9 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  
+pod:
+  port: 8080
 
 ingress:
   enabled: true
